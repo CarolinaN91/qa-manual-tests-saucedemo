@@ -63,3 +63,37 @@ Resultado atual
 Resultado esperado
 - A imagem deve mostrar uma camiseta vermelha 
 - Texto com formatação correta: "Test all the things"
+
+---
+
+BUG005 - Erro no botão Add to cart
+Severidade: Alta
+Prioridade: Alta
+
+Passos
+1. Entrar com o usuário problem_user
+1. Clicar no botão Add to cart do produto desejado
+3. Verificar se o botão foi alterado para Remove e se o produto foi adicionado ao carrinho
+
+Resultado atual
+Ao clicar no botão Add to cart, não há nenhuma mudança de estado, ou seja, ele não é alterado para Remove e o produto não é adicionado ao carrinho
+
+Resultado esperado
+Ao clicar no botão Add to cart, ele deverá ser alterado para Remove e o produto deverá ser adicionado ao carrinho
+
+---
+
+BUG006 - Erro no valor total dos produtos
+Severidade: Média
+Prioridade: Média
+
+Passos
+1. Adicionar mais de um produto ao carrinho
+2. Clicar no ícone de carrinho
+3. Verificar se é exibido o valor total no final da página
+
+Resultado atual
+Quando mais de um produto é adicionado ao carrinho, a página de carrinho não exibe o valor total
+
+Resultado esperado
+Quando mais de um produto for adicionado ao carrinho, a página de carrinho deverá exibir o valor total
