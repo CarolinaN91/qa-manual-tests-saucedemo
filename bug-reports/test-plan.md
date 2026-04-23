@@ -13,6 +13,7 @@ Tipos de teste
 - Funcional
 - Exploratório
 - Usabilidade
+- Negativo
 
 Critérios de sucesso
 - Usuário consegue completar compra sem erros críticos

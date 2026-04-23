@@ -23,4 +23,4 @@ Passos
 4. Clicar no botão Login
 
 Resultado esperado
-A mensagem de erro deve ser exibida
+Uma mensagem de erro deve ser exibida
